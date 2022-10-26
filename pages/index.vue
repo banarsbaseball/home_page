@@ -17,7 +17,7 @@ export default Vue.extend({
   background-position: center top;
 }
 #top {
-  background-image: url(../image/top.jpg);
+  background-image: url(../static/image/top.jpg);
   min-height: 100vh;
 }
 </style>
