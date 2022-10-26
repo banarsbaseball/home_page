@@ -1,6 +1,5 @@
 <template lang="pug">
 .top
-  linkText(:buttonTitle = `buttonTitle` :toPagePath = `toPagePath`)
 </template>
 
 <script lang="ts">
@@ -9,6 +8,7 @@ import linkText from "~/components/linkText.vue"
 
 @Component({
   name: "index",
+  layout: "default",
   components:{
     linkText
   }

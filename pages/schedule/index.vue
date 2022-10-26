@@ -1,5 +1,5 @@
 <template lang="pug">
-.div
+.schedule
 </template>
 
 <script lang="ts">
