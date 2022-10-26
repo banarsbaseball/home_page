@@ -1,22 +1,33 @@
 <template lang="pug">
 .top
-  .p#top バナーズのトップページです
+  linkText(:buttonTitle = `buttonTitle` :toPagePath = `toPagePath`)
 </template>
 
-<script>
-import Vue from 'vue'
+<script lang="ts">
+import { Component, Vue} from "nuxt-property-decorator"
+import linkText from "~/components/linkText.vue"
 
-export default Vue.extend({
-  name: 'IndexPage'
+@Component({
+  name: "index",
+  components:{
+    linkText
+  }
 })
+
+export default class extends Vue{
+  private buttonTitle: string = "試合日程"
+  private toPagePath: string = "/schedule"
+
+  private mounted() {
+  }
+}
+
 </script>
 
 <style>
 .top {
   background-size: cover;
   background-position: center top;
-}
-#top {
   background-image: url(../static/image/top.jpg);
   min-height: 100vh;
 }
