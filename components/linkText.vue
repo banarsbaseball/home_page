@@ -4,20 +4,19 @@
 </template>
 
 <script lang="ts">
-  import { Vue, Prop, Component} from "nuxt-property-decorator"
+import { Vue, Prop, Component } from "nuxt-property-decorator";
 
-  @Component({
+@Component({
   name: "linkText",
 })
+export default class extends Vue {
+  @Prop({ default: "" }) toPagePath!: string;
+  @Prop({ default: "" }) buttonTitle!: string;
 
-  export default class extends Vue {
-    @Prop({ default: ""}) toPagePath!: string
-    @Prop({ default: ""}) buttonTitle!: string
-
-    private transitionPage(): void {
-      this.$router.push(`${this.toPagePath}`)
-    }
+  private transitionPage(): void {
+    this.$router.push(`${this.toPagePath}`);
   }
+}
 </script>
 
 <style>

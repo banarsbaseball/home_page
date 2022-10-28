@@ -10,21 +10,20 @@
 
 <script lang="ts">
 import { Component, Vue } from "nuxt-property-decorator";
-import linkText from "../components/linkText.vue"
+import linkText from "../components/linkText.vue";
 
 @Component({
   components: {
-    linkText
-  }
+    linkText,
+  },
 })
-
-export default class extends Vue{
-  private buttonTitle_1: string = "ホーム"
-  private buttonTitle_2: string = "選手紹介"
-  private buttonTitle_3: string = "試合日程"
-  private toPagePath_1: string = "/"
-  private toPagePath_2: string = "/introduction"
-  private toPagePath_3: string = "/schedule"
+export default class extends Vue {
+  private buttonTitle_1: string = "ホーム";
+  private buttonTitle_2: string = "選手紹介";
+  private buttonTitle_3: string = "試合日程";
+  private toPagePath_1: string = "/";
+  private toPagePath_2: string = "/introduction";
+  private toPagePath_3: string = "/schedule";
 }
 </script>
 
@@ -50,4 +49,4 @@ export default class extends Vue{
 .linkTextDefault#header {
   padding: 10px 40px 10px 0px;
 }
-</style> 
+</style>
