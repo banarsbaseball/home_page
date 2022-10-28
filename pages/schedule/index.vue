@@ -3,22 +3,19 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue} from "nuxt-property-decorator"
+import { Component, Vue } from "nuxt-property-decorator";
 
 @Component({
-  name: "schedule"
+  name: "schedule",
 })
-
-export default class extends Vue{
-
-}
+export default class extends Vue {}
 </script>
 
 <style>
-  .schedule {
-    background-size: cover;
-    background-position: center;
-    background-image: url(../../static/image/schedule.jpg);
-    min-height: 100vh;
-  }
+.schedule {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../static/image/schedule.jpg);
+  min-height: 100vh;
+}
 </style>

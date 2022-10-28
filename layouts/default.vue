@@ -7,21 +7,16 @@
 
 <script lang="ts">
 import { Component, Vue } from "nuxt-property-decorator";
-import Header from "../components/Header.vue"
-import Footer from "../components/Footer.vue"
+import Header from "../components/Header.vue";
+import Footer from "../components/Footer.vue";
 
 @Component({
   components: {
     Header,
-    Footer
-  }
+    Footer,
+  },
 })
-
-export default class extends Vue {
-
-}
+export default class extends Vue {}
 </script>
 
-<style>
-
-</style>
+<style></style>

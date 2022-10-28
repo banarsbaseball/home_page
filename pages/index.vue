@@ -3,25 +3,22 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue} from "nuxt-property-decorator"
-import linkText from "~/components/linkText.vue"
+import { Component, Vue } from "nuxt-property-decorator";
+import linkText from "~/components/linkText.vue";
 
 @Component({
   name: "index",
   layout: "default",
-  components:{
-    linkText
-  }
+  components: {
+    linkText,
+  },
 })
+export default class extends Vue {
+  private buttonTitle: string = "試合日程";
+  private toPagePath: string = "/schedule";
 
-export default class extends Vue{
-  private buttonTitle: string = "試合日程"
-  private toPagePath: string = "/schedule"
-
-  private mounted() {
-  }
+  private mounted() {}
 }
-
 </script>
 
 <style>
