@@ -50,5 +50,7 @@ export default {
         fs: "empty"
       }
     }
-  }
+  },
+
+  srcDir: "src/"
 }

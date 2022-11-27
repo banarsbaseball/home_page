@@ -4,7 +4,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "nuxt-property-decorator";
-import linkText from "~/components/linkText.vue";
+import linkText from "../components/linkText.vue";
 
 @Component({
   name: "index",

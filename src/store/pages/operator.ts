@@ -1,6 +1,6 @@
 import { VuexModule, Module, getter, mutation } from "vuex-class-component";
 
-@Module({ namespacedPath: "pages/operator/"})
+@Module({ namespacedPath: "pages/operator"})
 class Store extends VuexModule {
   
   @getter operatorSecretData: object = {}
