@@ -1,0 +1,37 @@
+[
+  {
+    "name": "introduction",
+    "path": "/introduction",
+    "component": "C:\\\\Users\\\\hokudai\\\\banars_develop\\\\home_page\\\\src\\\\pages\\\\introduction\\\\index.vue",
+    "chunkName": "pages/introduction/index",
+    "_name": "_e9ecf55c"
+  },
+  {
+    "name": "operator",
+    "path": "/operator",
+    "component": "C:\\\\Users\\\\hokudai\\\\banars_develop\\\\home_page\\\\src\\\\pages\\\\operator\\\\index.vue",
+    "chunkName": "pages/operator/index",
+    "_name": "_194c8b88"
+  },
+  {
+    "name": "schedule",
+    "path": "/schedule",
+    "component": "C:\\\\Users\\\\hokudai\\\\banars_develop\\\\home_page\\\\src\\\\pages\\\\schedule\\\\index.vue",
+    "chunkName": "pages/schedule/index",
+    "_name": "_dbf70896"
+  },
+  {
+    "name": "operator-login",
+    "path": "/operator/login",
+    "component": "C:\\\\Users\\\\hokudai\\\\banars_develop\\\\home_page\\\\src\\\\pages\\\\operator\\\\login.vue",
+    "chunkName": "pages/operator/login",
+    "_name": "_3a17a2c2"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\hokudai\\\\banars_develop\\\\home_page\\\\src\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_213e48ac"
+  }
+]
